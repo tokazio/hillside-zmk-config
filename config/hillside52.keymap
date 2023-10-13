@@ -212,10 +212,10 @@ o_circ: o_circ {
  * | Mute  |  ESC  | CTRL  |-------|  GUI  |  ALT  |SK SHFT|  Nav  |---|  Sym  | SPACE |  ALT  |  GUI  |-------| Left  | Down  | Right |
  */
                         bindings = <
-&kp  ESC    &kp  A        &kp  Z        &kp  E        &kp  R        &kp  T                                                                            &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &kp  BSPC
-&kp  TAB    &kp  Q        &kp  S        &kp  D        &kp  F        &kp  G                                                                            &kp  H        &kp  J        &kp  K        &kp  L        &kp  M        &kp  EQUAL
-&kp  LCTRL  &kp  W        &kp  X        &kp  C        &kp  V        &kp  B           &kp  LS(N9)                                        &kp  LS(N0)   &kp  N        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  UP       &none
-&kp  LCMD   &none         &kp  LALT     &layer_z      &layer_a      &layer_s     &kp  LSHIFT    &kp  ENTER            &kp  SPACE        &layer_b      &none         &none                       &kp  LEFT     &kp  DOWN     &kp  RIGHT
+&kp  ESC    &kp  A          &kp  Z        &kp  E        &kp  R        &kp  T                                                                             &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &kp  BSPC
+&kp  TAB    &kp  Q          &kp  S        &kp  D        &kp  F        &kp  G                                                                             &kp  H        &kp  J        &kp  K        &kp  L        &kp  M        &kp  EQUAL
+&kp  LCTRL  &kp  W          &kp  X        &kp  C        &kp  V        &kp  B        &kp  LS(N9)                                            &kp  LS(N0)   &kp  N        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  UP       &none
+&kp  LCMD   &kp  LS(COMMA)  &kp  LALT                   &layer_z      &layer_a      &kp  LSHIFT    &kp  ENTER            &kp  SPACE        &layer_b      &none         &none                       &kp  LEFT     &kp  DOWN     &kp  RIGHT
                         >;
 			
                 };
