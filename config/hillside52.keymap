@@ -259,10 +259,10 @@ arrow: arrow {
 
 bt_layer {
                         bindings = <
-&trans         &kp LS(N2)     &none       &none          &none       &none                                                              &none      &none      &none                &none           &none            &none
-&bt BT_NXT     &none          &none       &none          &none       &none                                                              &none      &none      &none                &none           &none            &none
-&trans         &none          &none       &bt BT_CLR     &none       &none       &none                                        &none     &none      &none      &none                &none           &kp PG_UP        &none
-&trans         &none          &trans                     &none       &none       &kp LSHIFT        &none            &none     &none     &none      &none                           &kp LC(LEFT)    &kp PG_DN        &kp LC(RIGHT)
+&trans         &kp LS(N2)     &none       &none          &none       &none                                                              &none      &none      &none                &none             &none            &none
+&bt BT_NXT     &none          &none       &none          &none       &none                                                              &none      &none      &none                &none             &none            &none
+&trans         &none          &none       &bt BT_CLR     &none       &none       &none                                        &none     &none      &none      &none                &none             &kp PG_UP        &none
+&trans         &none          &trans                     &none       &none       &kp LSHIFT        &none            &none     &none     &none      &none                           &kp LCMD(LEFT)    &kp PG_DN        &kp LCMD(RIGHT)
                         >;
                 };
 
