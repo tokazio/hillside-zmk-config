@@ -134,17 +134,6 @@ e_grv: e_grv {
                 ;
         };
 
-a_grv: a_grv {
-            label = "a grave";
-	    tap-ms = <50>;
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp LA(GRAVE)>
-                , <&macro_tap &kp A>
-                ;
-        };
-
 c_ced: c_ced {
             label = "c ced";
 	    tap-ms = <50>;
