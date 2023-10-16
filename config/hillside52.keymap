@@ -258,18 +258,18 @@ arrow: arrow {
 
 		bottomleft_layer {
                         bindings = <
-&trans         &kp LS(N2)     &none       &none          &none       &none                                                              &none      &none      &none                &none             &none            &none
-&bt BT_NXT     &none          &none       &none          &none       &none                                                              &none      &none      &none                &none             &none            &none
-&trans         &none          &none       &bt BT_CLR     &none       &none       &none                                        &none     &none      &none      &none                &none             &kp PG_UP        &none
-&trans         &none          &trans                     &none       &none       &kp LSHIFT        &none            &none     &none     &none      &none                           &kp RG(LEFT)      &kp PG_DN        &kp RG(RIGHT)
+&trans         &kp LS(N2)            &none              &none                 &none       &none                                                              &none      &none      &none                &none             &none            &none
+&bt BT_NXT     &bt BT_SEL 0          &bt BT_SEL 1       &bt BT_SEL 2          &none       &none                                                              &none      &none      &none                &none             &none            &none
+&trans         &none                 &none              &bt BT_CLR            &none       &none       &none                                        &none     &none      &none      &none                &none             &kp PG_UP        &none
+&trans         &none                 &trans                                   &none       &none       &kp LSHIFT        &none            &none     &none     &none      &none                           &kp RG(LEFT)      &kp PG_DN        &kp RG(RIGHT)
                         >;
                 };
 
 		shift_layer {
                         bindings = <
-&trans    &kp  LS(A)    &kp  LS(Z)        &kp  LS(E)        &kp  LS(R)        &kp  LS(T)                                                                            &kp  LS(Y)        &kp  LS(U)            &kp  LS(I)          &kp  LS(O)        &kp  LS(P)        &kp  DELETE
-&trans    &kp  LS(Q)    &kp  LS(S)        &kp  LS(D)        &kp  LS(F)        &kp  LS(G)                                                                            &kp  LS(H)        &kp  LS(J)            &kp  LS(K)          &kp  LS(L)        &kp  LS(M)        &kp  LS(APOSTROPHE)
-&trans    &kp  LS(W)    &kp  LS(X)        &kp  LS(C)        &kp  LS(V)        &kp  LS(B)     &kp  LBKT                                              &kp  RBKT       &kp  LS(N)        &kp  LS(SEMICOLON)    &kp  LS(COMMA)      &kp  LS(DOT)      &kp  LS(UP)       &kp  LS(BACKSLASH)
+&trans    &kp  LS(A)      &kp  LS(Z)        &kp  LS(E)        &kp  LS(R)        &kp  LS(T)                                                                            &kp  LS(Y)        &kp  LS(U)            &kp  LS(I)          &kp  LS(O)        &kp  LS(P)        &kp  DELETE
+&trans    &kp  LS(Q)      &kp  LS(S)        &kp  LS(D)        &kp  LS(F)        &kp  LS(G)                                                                            &kp  LS(H)        &kp  LS(J)            &kp  LS(K)          &kp  LS(L)        &kp  LS(M)        &kp  LS(APOSTROPHE)
+&trans    &kp  LS(W)      &kp  LS(X)        &kp  LS(C)        &kp  LS(V)        &kp  LS(B)     &kp  LBKT                                              &kp  RBKT       &kp  LS(N)        &kp  LS(SEMICOLON)    &kp  LS(COMMA)      &kp  LS(DOT)      &kp  LS(UP)       &kp  LS(BACKSLASH)
 &trans    &kp  LS(MINUS)  &trans                              &trans            &trans         &none          &kp  LS(ENTER)         &kp LS(SPACE)    &trans          &kp  LS(EQUAL)    &kp  LS(SLASH)                            &kp  LS(LEFT)     &kp  LS(DOWN)     &kp  LS(RIGHT)
                         >;
                 };
