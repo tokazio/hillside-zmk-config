@@ -264,7 +264,6 @@ bt_layer {
 &trans    &kp  LS(DOT)  &trans                              &trans            &trans         &none          &kp  LS(ENTER)         &kp LS(SPACE)    &trans          &kp  LS(EQUAL)    &kp  LS(SLASH)                            &kp  LS(LEFT)     &kp  LS(DOWN)     &kp  LS(RIGHT)
                         >;
                 };
-
-#---------                
+               
         };
 };
