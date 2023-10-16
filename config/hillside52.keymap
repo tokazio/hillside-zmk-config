@@ -133,6 +133,27 @@ e_grv: e_grv {
                 , <&macro_tap &kp E>
                 ;
         };
+
+a_grv: a_grv {
+            label = "a grave";
+	    tap-ms = <50>;
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp LA(GRAVE)>
+                , <&macro_tap &kp A>
+                ;
+        };
+
+c_ced: c_ced {
+            label = "c ced";
+	    tap-ms = <50>;
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp LA(C)>
+                ;
+        };
 	
 	e_circ: e_circ {
             label = "e circ";
@@ -230,7 +251,7 @@ arrow: arrow {
 
                 top_layer {
                         bindings = <
-&trans    &kp  LS(N1)   &e_aig       &kp  LS(N3)  &kp  LS(N4)           &kp  LS(N5)                                                        &kp  LS(N6)   &e_grv        &kp LS(N8)     &kp  LS(N9)   &kp  LS(N0)  &trans
+&trans    &kp  LS(N1)   &e_aig       &kp  LS(N3)  &kp  LS(N4)           &kp  LS(N5)                                                        &kp  LS(N6)   &e_grv        &kp LS(N8)     &kp  LA(C)    &a_grv       &trans
 &trans    &none         &none        &none        &kp  LC(LS(F))        &kp  LC(LG(G))                                                     &none         &none         &none          &none         &none        &none
 &trans    &none         &none        &none        &kp  LA(LG(V))        &none            &kp LBRC                            &kp RBRC      &none         &none         &none          &none         &trans       &none
 &trans    &none         &trans                    &trans                &trans           &trans     &none           &none    &layer_c      &none        &none                         &trans        &trans       &trans
