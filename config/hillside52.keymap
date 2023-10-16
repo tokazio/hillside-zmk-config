@@ -195,7 +195,7 @@ arrow: arrow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &kp minus>
+                = <&macro_tap &kp MINUS>
                 , <&macro_tap &kp LS(DOT)>
                 ;
         };
