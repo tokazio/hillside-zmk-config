@@ -234,14 +234,14 @@ arrow: arrow {
 &trans      &kp  N1         &kp  N2       &kp  N3      &kp  N4                  &kp  N5                                                                                               &kp  N6       &kp  N7           &kp  N8       &kp  N9         &kp  N0                &kp  DELETE
 &trans      &none           &none         &none        &kp  LC(LS(F))           &none                                                                                                 &none         &kp LA(LG(I))     &none         &kp LA(LG(L))   &kp LA(LG(M))          &kp  GRAVE
 &trans      &none           &none         &none        &kp  LA(LG(V))           &none                &kp LBRC                                                   &kp RBRC              &kp RG(N)     &none             &none         &trans          &kp LG(LS(UP))         &kp  TILDE
-&trans      &none           &trans                     &trans                   &trans               &trans             &none                 &none             &layer_c              &none         &kp BACKSLASH                   &trans          &kp LG(LS(DOWN))       &arrow
+&trans      &none           &trans                     &trans                   &trans               &trans             &none                 &none             &layer_c              &none         &kp LS(N7)                      &trans          &kp LG(LS(DOWN))       &arrow
                         >;			
                 };
 
                 topright_layer {
                         bindings = <
 &trans    &kp  LS(N1)   &e_aig       &kp  LS(N3)  &kp  LS(N4)           &kp  LS(N5)                                                        &kp  LS(N6)   &e_grv        &kp LS(N8)     &kp  LA(C)    &a_grv       &trans
-&trans    &none         &none        &none        &kp  LC(LS(F))        &kp  LC(LG(G))                                                     &none         &none         &none          &none         &u_grv        &none
+&trans    &none         &none        &none        &kp  LC(LS(F))        &kp  LC(LG(G))                                                     &none         &none         &none          &none         &u_grv       &none
 &trans    &none         &none        &none        &kp  LA(LG(V))        &none            &kp LBRC                            &kp RBRC      &none         &none         &none          &none         &trans       &none
 &trans    &none         &trans                    &trans                &trans           &trans     &none           &none    &layer_c      &none        &none                         &trans        &trans       &trans
                         >;
@@ -269,8 +269,8 @@ arrow: arrow {
                         bindings = <
 &trans        &kp  LS(A)            &kp  LS(Z)         &kp  LS(E)            &kp  LS(R)        &kp  LS(T)                                                                               &kp  LS(Y)        &kp  LS(U)            &kp  LS(I)          &kp  LS(O)        &kp  LS(P)        &kp  DELETE
 &trans        &kp  LS(Q)            &kp  LS(S)         &kp  LS(D)            &kp  LS(F)        &kp  LS(G)                                                                               &kp  LS(H)        &kp  LS(J)            &kp  LS(K)          &kp  LS(L)        &kp  LS(M)        &kp  LS(APOSTROPHE)
-&trans        &kp  LS(W)            &kp  LS(X)         &kp  LS(C)            &kp  LS(V)        &kp  LS(B)     &kp  LBKT                                                 &kp  RBKT       &kp  LS(N)        &kp  LS(SEMICOLON)    &kp  LS(COMMA)      &kp  LS(DOT)      &kp  LS(UP)       &kp  LS(BACKSLASH)
-&trans        &kp  LS(MINUS)        &trans                                   &trans            &trans         &kp  LSHIFT       &kp  LS(ENTER)         &kp LS(SPACE)    &trans          &kp  LS(EQUAL)    &kp  LS(SLASH)                            &kp  LS(LEFT)     &kp  LS(DOWN)     &kp  LS(RIGHT)
+&trans        &kp  LS(W)            &kp  LS(X)         &kp  LS(C)            &kp  LS(V)        &kp  LS(B)     &kp  LBKT                                                 &kp  RBKT       &kp  LS(N)        &kp  LS(SEMICOLON)    &kp  LS(COMMA)      &kp  LS(DOT)      &kp  LS(UP)       &kp  LS(EQUAL)
+&trans        &kp  LS(BACKSLASH)    &trans                                   &trans            &trans         &kp  LSHIFT       &kp  LS(ENTER)         &kp LS(SPACE)    &trans          &kp  LS(MINUS)    &kp  LS(SLASH)                            &kp  LS(LEFT)     &kp  LS(DOWN)     &kp  LS(RIGHT)
                         >;
                 };
                
