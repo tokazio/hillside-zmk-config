@@ -240,10 +240,10 @@ arrow: arrow {
 
                 topright_layer {
                         bindings = <
-&trans    &kp  LS(N1)   &e_aig       &kp  LS(N3)  &kp  LS(N4)           &kp  LS(N5)                                                        &kp  LS(N6)   &e_grv        &kp LS(N8)     &kp  LA(C)    &a_grv       &trans
-&trans    &none         &none        &none        &kp  LC(LS(F))        &kp  LC(LG(G))                                                     &none         &none         &none          &none         &u_grv       &none
-&trans    &none         &none        &none        &kp  LA(LG(V))        &none            &kp LBRC                            &kp RBRC      &none         &none         &none          &none         &trans       &none
-&trans    &none         &trans                    &trans                &trans           &trans     &none           &none    &layer_c      &none        &none                         &trans        &trans       &trans
+&trans      &kp  LS(N1)     &e_aig        &kp  LS(N3)  &kp  LS(N4)             &kp  LS(N5)                                                                                           &kp  LS(N6)    &e_grv           &kp LS(N8)     &kp  LA(C)     &a_grv                 &trans
+&trans      &none           &none         &none        &kp  LC(LS(F))          &kp  LC(LG(G))                                                                                        &none          &none            &none          &none          &u_grv                 &none
+&trans      &none           &none         &none        &kp  LA(LG(V))          &none                 &kp LBRC                                                   &kp RBRC             &none          &none            &none          &none          &trans                 &none
+&trans      &none           &trans                     &trans                  &trans                &trans             &none                 &none             &layer_c             &none          &none                           &trans         &trans                 &trans
                         >;
                 };
 
@@ -258,7 +258,7 @@ arrow: arrow {
 
 		bottomleft_layer {
                         bindings = <  
-&trans         &kp LS(N2)            &none              &none                 &none            &none                                                                                    &none            &none                  &none               &none             &none             &none
+&trans         &kp LS(N2)            &none              &none                 &kp LS(F6)            &none                                                                                    &none            &none                  &none               &none             &none             &none
 &bt BT_NXT     &bt BT_SEL 0          &bt BT_SEL 1       &bt BT_SEL 2          &none            &none                                                                                    &none            &none                  &none               &none             &none             &none
 &trans         &none                 &none              &bt BT_CLR            &none            &none          &none                                                     &none           &none            &none                  &none               &none             &kp PG_UP         &none
 &trans         &none                 &trans                                   &none            &none          &kp LSHIFT        &none                  &none            &none           &none            &none                                      &kp RG(LEFT)      &kp PG_DN         &kp RG(RIGHT)
