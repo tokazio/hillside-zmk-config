@@ -38,7 +38,7 @@ macros {
 	};
 	
 	layer_top_right: layer_top_right {
-	    label = "layer top rihgt";
+	    label = "layer top right";
 	    compatible = "zmk,behavior-macro";
 	    #binding-cells = <0>;
 	    wait-ms = <0>;
@@ -77,6 +77,7 @@ layer_bottom_left: layer_bottom_left {
 	};
 
 layer_shift: layer_shift {
+        label = "layer shift";
 	    compatible = "zmk,behavior-macro";
 	    #binding-cells = <0>;
 	    wait-ms = <0>;
