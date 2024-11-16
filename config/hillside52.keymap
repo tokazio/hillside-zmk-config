@@ -212,6 +212,18 @@ arrow: arrow {
 
     };
 
+    prtscr: prtscr {
+    	    tap-ms = <50>;
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings
+                    = <&macro_tap &kp LCMD>
+                    , <&macro_tap &kp LS(N4)>
+                    ;
+            };
+
+        };
+
 
 
         keymap {
@@ -234,7 +246,7 @@ arrow: arrow {
 &trans      &kp  N1         &kp  N2       &kp  N3      &kp  N4                  &kp  N5                                                                                               &kp  N6       &kp  N7           &kp  N8       &kp  N9         &kp  N0                &kp  DELETE
 &trans      &none           &none         &none        &kp  LC(LS(F))           &none                                                                                                 &none         &kp LA(LG(I))     &none         &kp LA(LG(L))   &kp LA(LG(M))          &kp  GRAVE
 &trans      &none           &none         &none        &kp  LA(LG(V))           &none                &kp LBRC                                                   &kp RBRC              &kp RG(N)     &none             &none         &trans          &kp LG(LS(UP))         &kp  TILDE
-&trans      &none           &trans                     &trans                   &trans               &trans             &none                 &none             &layer_c              &none         &kp LS(N7)                      &trans          &kp LG(LS(DOWN))       &arrow
+&trans      &none           &trans                     &trans                   &trans               &trans             &none                 &none             &layer_c              &prtscr         &kp LS(N7)                      &trans          &kp LG(LS(DOWN))       &arrow
                         >;			
                 };
 
