@@ -211,7 +211,7 @@ o_circ: o_circ {
                 ;
         };
 
-    };
+
 
     prtscr: prtscr {
             label = "prtscr";
